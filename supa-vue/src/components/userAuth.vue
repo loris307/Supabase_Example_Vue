@@ -1,6 +1,6 @@
 <template>
 	<div>
-	  <h1>Zijaretten</h1>
+	  <h1>Voddi</h1>
 	  <div v-if="user">
 		<p>Welcome, {{ user.email }}</p>
 		<button @click="signOut">Sign Out</button>
