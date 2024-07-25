@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.44.4",
+    "axios": "^1.7.2",
     "core-js": "^3.8.3",
     "vue": "^3.2.13"
   },
@@ -34,7 +35,9 @@
       "parser": "@babel/eslint-parser",
       "requireConfigFile": false,
       "babelOptions": {
-        "presets": ["@vue/cli-plugin-babel/preset"]
+        "presets": [
+          "@vue/cli-plugin-babel/preset"
+        ]
       }
     },
     "rules": {
